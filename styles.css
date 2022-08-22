@@ -38,13 +38,19 @@ body {
     max-height: 45vh;
 }
 .cleaning {
-
+    padding:10px;
+    margin:5px;
+    max-width: 30%;
 }
 .care {
-
+    padding:10px;
+    margin:5px;
+    max-width: 30%;
 }
 .doityourself {
-
+    padding:10px;
+    margin:5px;
+    max-width: 30%;
 }
 article {
     display:flex;
