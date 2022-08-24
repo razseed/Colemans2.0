@@ -31,6 +31,7 @@ header {
 }
 body {
     text-align: center;
+    overflow-x: hidden;
 }
 .photos {
     display:flex;
@@ -68,3 +69,14 @@ article {
     padding:30px;
 
 }
+
+.cleaningservices {
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+.cleaningservices.loading {
+    transform: translate(100%);
+    -webkit-tranform: translate(100%);
+}
+
